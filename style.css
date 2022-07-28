@@ -1,8 +1,25 @@
+.carousel-item::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  opacity: 0.7;
+  display: block;
+}
 .carousel-item img {
   height: 700px;
 }
 .caro-desc {
   margin-bottom: 160px;
+}
+
+.courses-btn {
+  width: 135px;
+  margin-left: 45%;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -11,5 +28,8 @@
   }
   .caro-desc {
     margin-bottom: 60px;
+  }
+  .courses-btn {
+    margin-left: 34%;
   }
 }
